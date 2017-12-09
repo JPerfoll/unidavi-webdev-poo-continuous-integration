@@ -29,6 +29,11 @@ public class WordProblemSolverTest {
     public void testSingleAddition2() {
         assertEquals(55, solver.solve("What is 53 plus 2?"));
     }
+    
+    @Test
+    public void testSingleAddition3() {
+        assertEquals(51, solver.solve("What is 45 plus 6?"));
+    }
 
     @Ignore("Remove to run test")
     @Test

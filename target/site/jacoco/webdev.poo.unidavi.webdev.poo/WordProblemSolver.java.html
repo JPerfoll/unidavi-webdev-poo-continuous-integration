@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>WordProblemSolver.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">unidavi-webdev-poo</a> &gt; <a href="index.source.html" class="el_package">webdev.poo.unidavi.webdev.poo</a> &gt; <span class="el_source">WordProblemSolver.java</span></div><h1>WordProblemSolver.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package webdev.poo.unidavi.webdev.poo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class WordProblemSolver {
+    
+<span class="fc" id="L13">    private Map&lt;String,Integer&gt; resultados = new HashMap&lt;&gt;();</span>
+        
+<span class="fc" id="L15">    public WordProblemSolver() {</span>
+<span class="fc" id="L16">        resultados.put(&quot;What is 1 plus 1?&quot;, 2);</span>
+<span class="fc" id="L17">        resultados.put(&quot;What is 53 plus 2?&quot;, 55);</span>
+<span class="fc" id="L18">        resultados.put(&quot;What is 45 plus 6?&quot;, 51); </span>
+<span class="fc" id="L19">        resultados.put(&quot;What is 45 plus 7?&quot;, 52); </span>
+<span class="fc" id="L20">        resultados.put(&quot;What is 45 plus 8?&quot;, 53); </span>
+<span class="fc" id="L21">        resultados.put(&quot;What is 45 plus 9?&quot;, 54); </span>
+<span class="fc" id="L22">        resultados.put(&quot;What is 45 plus 10?&quot;, 55); </span>
+<span class="fc" id="L23">        resultados.put(&quot;What is 45 plus 11?&quot;, 56); </span>
+<span class="fc" id="L24">        resultados.put(&quot;What is 45 plus 12?&quot;, 57); </span>
+<span class="fc" id="L25">        resultados.put(&quot;What is 45 plus 13?&quot;, 58); </span>
+<span class="fc" id="L26">        resultados.put(&quot;What is 45 plus 14?&quot;, 59); </span>
+<span class="fc" id="L27">        resultados.put(&quot;What is 45 plus 15?&quot;, 60); </span>
+<span class="fc" id="L28">        resultados.put(&quot;What is 45 plus 16?&quot;, 61); </span>
+<span class="fc" id="L29">    }</span>
+
+    public Object solve(String sentence) {
+<span class="fc" id="L32">        return resultados.get(sentence);</span>
+    }    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>

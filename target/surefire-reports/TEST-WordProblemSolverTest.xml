@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="WordProblemSolverTest" time="0.817" errors="0" skipped="14">
+<testsuite tests="17" failures="0" name="WordProblemSolverTest" time="2.513" errors="0" skipped="14">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher site"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install sonar:sonar"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="pt"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,48 +65,49 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="WordProblemSolverTest" name="testSingleMultiplication" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testSingleMultiplication" time="0.203">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testMultipleDivisions" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testMultipleDivisions" time="0.204">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testUnknownOperation" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testUnknownOperation" time="0.204">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testInvalidQuestionFormat" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testInvalidQuestionFormat" time="0.207">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testSingleDivision" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testSingleDivision" time="0.21">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testAdditionThenSubtraction" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testAdditionThenSubtraction" time="0.211">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testSingleAdditionWithNegativeNumbers" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testSingleAdditionWithNegativeNumbers" time="0.211">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testMultipleAdditions" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testMultipleAdditions" time="0.211">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testSubtractionThenAddition" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testSubtractionThenAddition" time="0.211">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testMultipleSubtractions" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testMultipleSubtractions" time="0.212">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testMultipleMultiplications" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testMultipleMultiplications" time="0.212">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testSingleSubtraction" time="0.068">
+  <testcase classname="WordProblemSolverTest" name="testSingleSubtraction" time="0.214">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testSingleAddition1" time="0.001"/>
+  <testcase classname="WordProblemSolverTest" name="testSingleAddition1" time="0.002"/>
   <testcase classname="WordProblemSolverTest" name="testSingleAddition2" time="0"/>
+  <testcase classname="WordProblemSolverTest" name="testSingleAddition3" time="0"/>
   <testcase classname="WordProblemSolverTest" name="testSingleAdditionOfLargeNumbers" time="0">
     <skipped message="Remove to run test"/>
   </testcase>
-  <testcase classname="WordProblemSolverTest" name="testAdditionThenMultiplication" time="0">
+  <testcase classname="WordProblemSolverTest" name="testAdditionThenMultiplication" time="0.001">
     <skipped message="Remove to run test"/>
   </testcase>
 </testsuite>

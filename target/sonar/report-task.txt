@@ -1,0 +1,6 @@
+projectKey=webdev.poo:unidavi-webdev-poo
+serverUrl=http://localhost:9000
+serverVersion=6.7.0.33306
+dashboardUrl=http://localhost:9000/dashboard/index/webdev.poo:unidavi-webdev-poo
+ceTaskId=AWA7aPNQcL_jaipXbZH7
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWA7aPNQcL_jaipXbZH7
