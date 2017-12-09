@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: WordProblemSolverTest
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 14, Time elapsed: 0.223 sec
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 14, Time elapsed: 0.167 sec
