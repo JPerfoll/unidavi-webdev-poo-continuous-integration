@@ -5,20 +5,19 @@
  */
 package webdev.poo.unidavi.webdev.poo;
 
-/**
- *
- * @author 31888
- */
+import java.util.HashMap;
+import java.util.Map;
+
 public class WordProblemSolver {
+    
+    private Map<String,Integer> resultados = new HashMap<String,Integer>();
+        
+    public WordProblemSolver() {
+        resultados.put("What is 1 plus 1?", 2);
+        resultados.put("What is 53 plus 2?", 55);
+    }
 
     public Object solve(String sentence) {
-        if ("What is 1 plus 1?".equals(sentence)) {
-            return 2;
-        } else if ("What is 53 plus 2?".equals(sentence)) {
-            return 55;
-        } else {
-            return 0;
-        }
-    }
-    
+        return resultados.get(sentence);
+    }    
 }

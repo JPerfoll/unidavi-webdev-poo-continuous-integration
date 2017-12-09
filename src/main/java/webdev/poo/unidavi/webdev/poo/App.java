@@ -1,7 +1,9 @@
 package webdev.poo.unidavi.webdev.poo;
 
+import java.util.logging.Logger;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Maven");
+        Logger.getGlobal().info("Maven Project");
     }
 }
